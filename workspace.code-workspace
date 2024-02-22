@@ -1,0 +1,129 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"Zignd.html-css-class-completion",
+			"aaron-bond.better-comments",
+			"abusaidm.html-snippets",
+			"akamud.vscode-theme-onedark",
+			"alefragnani.project-manager",
+			"christian-kohler.path-intellisense",
+			"bmewburn.vscode-intelephense-client",
+			"dbaeumer.vscode-eslint",
+			"dsznajder.es7-react-js-snippets",
+			"donjayamanne.githistory",
+			"eamodio.gitlens",
+			"esbenp.prettier-vscode",
+			"EditorConfig.EditorConfig",
+			"HookyQR.beautify",
+			"lokalise.i18n-ally",
+			"formulahendry.auto-rename-tag",
+			"formulahendry.auto-close-tag",
+			"naumovs.color-highlight",
+			"wix.vscode-import-cost",
+			"vscodeshift.material-ui-snippets",
+			"vscodeshift.material-ui-codemorphs",
+			"psioniq.psi-header",
+			"xabikos.JavaScriptSnippets",
+			"VisualStudioExptTeam.vscodeintellicode",
+			"steoates.autoimport",
+			"heybourn.headwind"
+		]
+	},
+	"settings": {
+		"editor.bracketPairColorization.enabled": true,
+		"editor.guides.bracketPairs": "active",
+		"workbench.iconTheme": "material-icon-theme",
+		"editor.suggestSelection": "recentlyUsed",
+		"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		"workbench.colorTheme": "Atom One Dark",
+		"i18n-ally.localesPaths": ["public/locales", "src/@system/i18n", "locales"],
+		"files.autoSave": "off",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"[javascript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"eslint.alwaysShowStatus": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"eslint.format.enable": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit",
+			"source.organizeImports": "explicit"
+		},
+		"better-comments.highlightPlainText": false,
+		"better-comments.multilineComments": true,
+		"material-ui-snippets.showNotesOnStartup": false,
+		"javascript.updateImportsOnFileMove.enabled": "always",
+		"css.lint.unknownAtRules": "ignore",
+		"psi-header.config": {
+			"forceToTop": true,
+			"blankLinesAfter": 1,
+			"license": "MIT",
+			"author": "Wind",
+			"initials": "Wind",
+			"authorEmail": "thaidoanphong01122004@gmail.com",
+			"company": "PT CORP, Inc",
+			"copyrightHolder": "PT CORP, Inc",
+			"creationDateZero": "asIs"
+		},
+		"psi-header.changes-tracking": {
+			"isActive": true,
+			"modAuthor": "Modified By: ",
+			"modDate": "Last Modified: ",
+			"modDateFormat": "date",
+			"include": [],
+			"exclude": ["markdown", "json", "jsonc"],
+			"excludeGlob": ["public/**", "build/**"],
+			"autoHeader": "manualSave"
+		},
+		"psi-header.templates": [
+			{
+				"language": "*",
+				"template": [
+					"Created Date: <<filecreated('DD-MM-YYYY, h:mm:ss a')>>",
+					"Author: <<author>>",
+					"Email: <<authorEmail>>",
+					"-----",
+					"Last Modified: ",
+					"Modified By: ",
+					"-----",
+					"Copyright (c) <<year>> <<company>>",
+					"-----",
+					"HISTORY:",
+					"Date      \tBy\tComments",
+					"----------\t---\t----------------------------------------------------------"
+				],
+				"changeLogCaption": "HISTORY:",
+				"changeLogHeaderLineCount": 2,
+				"changeLogEntryTemplate": ["<<dateformat('DD-MM-YYYY')>>\t<<initials>>\t"]
+			},
+			// {
+			// 	"language": "javascript",
+			// 	"template": [
+			// 		"File: <<filepath>>",
+			// 		"Project: <<projectpath>>",
+			// 		"Created Date: <<filecreated('dd-MM-yyyy, h:mm:ss a')>>",
+			// 		"Author: <<author>>",
+			// 		"-----",
+			// 		"Last Modified: ",
+			// 		"Modified By: ",
+			// 		"-----",
+			// 		"Copyright (c) <<year>> <<company>>",
+			// 		"------------------------------------",
+			// 		"Javascript will save your soul!"
+			// 	]
+			// },
+			{
+				"language": "typescript",
+				"mapTo": "javascript"
+			}
+		],
+		"i18n-ally.keystyle": "nested",
+		"i18n-ally.sourceLanguage": "vi"
+	}
+}

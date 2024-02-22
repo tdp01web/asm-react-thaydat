@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop Gaming MSI Thin GF63 (I5-12450H | 8G | RTX 2050 | 1TB SSD | 15.6 144Hz FHD ) NK BH Tại NC",
+      "image": "https://nguyencongpc.vn/media/product/25869-gf63-12ucx-898us.png",
+      "price": "200000000",
+      "description": ""
+    },
+    {
+      "id": "0e5c",
+      "name": "Bộ PC GAMING 01 (AMD 3000G/ RAM 8G/SSD 240G/ 350W)",
+      "image": "https://nguyencongpc.vn/media/product/250-26232-b----pc-gaming.jpg",
+      "price": "4700000",
+      "description": "okok"
+    },
+    {
+      "id": "76c6",
+      "name": "Bàn Phím Sharkoon Skiller SGK60 Kailh BOX White US",
+      "image": "https://nguyencongpc.vn/media/product/250-22833-vh310-ruhfur.jpg",
+      "price": "6000000",
+      "description": "dc"
+    },
+    {
+      "id": "b38b",
+      "name": "Màn Hình Kingview KV-2419H (24 Inch/ IPS/ Màu Đen/ 75Hz)",
+      "image": "https://nguyencongpc.vn/media/product/250-23918-f195a.jpg",
+      "price": "6000000",
+      "description": ""
+    },
+    {
+      "id": "95b0",
+      "name": "Laptop Asus ExpertBook B1400CBA-EB0678W (Core I3-1215U | 8GB | 256GB | Intel® UHD | 14.0-Inch FHD | Win 11 | Đen)",
+      "image": "https://nguyencongpc.vn/media/product/250-25320-lt0000224.png",
+      "price": "5000000",
+      "description": ""
+    },
+    {
+      "name": "LOA LOGITECH G560 LIGHTSYNC RGB GAMING",
+      "image": "https://nguyencongpc.vn/media/product/18453-g560g560.jpg",
+      "price": "5000000",
+      "description": "okok",
+      "id": "6z7zwl1"
+    }
+  ],
+  "menus": [
+    {
+      "id": "1",
+      "label": "Thống kê",
+      "path": "/admin"
+    },
+    {
+      "id": "2",
+      "label": "Sản Phẩm",
+      "path": "/admin/products"
+    }
+  ],
+  "users": [
+    {
+      "email": "phong@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$VOwdepACngiIKOyTPeVBgu.KVKT7U5F9zPDX.OyEFaScP/5aNL9gS",
+      "id": 2
+    },
+    {
+      "email": "l@gmail.com",
+      "password": "$2a$10$qIUsnmB2ZFK31w4.YAHh3ezSeB06UFcpxguxvh98mUZtLKr6ypn/K",
+      "id": 3
+    },
+    {
+      "email": "phong5@gmail.com",
+      "password": "$2a$10$nt1Ki5IeTy5Ns/KWmJytMeSfwNeGEm0j3RdT2hbYQFvo6zNKyPLzG",
+      "id": 4
+    }
+  ]
+}
